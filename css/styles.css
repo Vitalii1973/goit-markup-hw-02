@@ -100,13 +100,11 @@ body {
 .header-menu:hover,
 .header-menu:focus {
   color: var(--color-ocean);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
 }
 .header-menu:active {
   color: var(--color-white);
   background-color: var(--color-ocean);
-  border-radius: 2px;
 }
 /** Контакті */
 .address {
@@ -169,15 +167,12 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-white);
   background-color: var(--color-ocean);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .hero-btn:active {
   font-weight: 500;
   line-height: 1.5;
   color: var(--color-white);
   background-color: var(--color-ocean);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 /** Секція 2 Бенефис */
 .benefits {
@@ -223,7 +218,6 @@ body {
 /** Секція 4 Команда */
 .team {
   background-color: var(--color-cloud);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .team-title {
@@ -309,13 +303,10 @@ body {
 .portfolio-header-menu:hover,
 .portfolio-header-menu:focus {
   color: var(--color-ocean);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
 }
 .portfolio-header-menu:active {
   color: var(--color-white);
   background-color: var(--color-ocean);
-  border-radius: 4px;
 }
 
 /*? Секція 1 Кнопки портфоліо */
@@ -334,9 +325,7 @@ body {
   color: var(--color-iris);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: var(--color-cloud);
-  border: 1px solid var(--color-cornflower);
-  border-radius: 4px;
-  align-items: center;
+
   text-align: center;
   letter-spacing: 0.04em;
 }
@@ -349,9 +338,7 @@ body {
 .portfolio-btn:active {
   color: var(--color-white);
   background-color: var(--color-ocean);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+
   cursor: pointer;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -364,8 +351,6 @@ body {
 }
 .advertising-item {
   background-color: var(--color-white);
-  border: 1px solid var(--color-cornflower);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .advertising-subtitle {
   font-weight: 500;
