@@ -342,6 +342,8 @@ body {
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
   cursor: pointer;
 }
 .portfolio-btn:active {
