@@ -42,7 +42,6 @@ body {
 }
 .header {
   background-color: var(--color-white);
-  border-color: var(--color-cornflower);
 }
 /**Оформлення логотипу */
 .style {
@@ -100,7 +99,6 @@ body {
 .header-menu:hover,
 .header-menu:focus {
   color: var(--color-ocean);
-  border-radius: 2px;
 }
 .header-menu:active {
   color: var(--color-white);
@@ -269,7 +267,6 @@ body {
 /*? Шапка портфоліо */
 .portfolio-line {
   background-color: var(--color-white);
-  border-color: var(--color-cornflower);
 }
 .portfolio-nav {
 }
