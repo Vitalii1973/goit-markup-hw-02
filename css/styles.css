@@ -99,7 +99,7 @@ body {
 }
 .header-menu:hover,
 .header-menu:focus {
-  color: var(--color-iris);
+  color: var(--color-ocean);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
 }
@@ -110,6 +110,7 @@ body {
 }
 /** Контакті */
 .address {
+  font-style: normal;
 }
 .address-contact {
 }
@@ -158,6 +159,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-white);
   background-color: var(--color-iris);
+  cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -166,7 +168,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.04em;
   color: var(--color-white);
-  background-color: var(--color-iris);
+  background-color: var(--color-ocean);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .hero-btn:active {
@@ -225,6 +227,7 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .team-title {
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -276,6 +279,7 @@ body {
 }
 .portfolio-nav {
 }
+/*? Логотип портфоліо */
 .portfolio-style {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
